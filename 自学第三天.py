@@ -12,3 +12,10 @@ for i in range(1, 10):
         print(f"{i}*{j}={i*j}", end="\t")
     # 内层循环跑完（当前行所有算式都打印完毕），执行空打印实现换行
     print()
+
+
+#倒序写法
+for i in range (9,0,-1):
+    for j in range (1,i+1):
+        print(f"{i}*{j}={i*j}",end="\t")
+    print()
